@@ -1,0 +1,76 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.7373621405645074 0.46665920037600916 0.48839150726292485 2.053797356331925
+  position -0.5987518749406574 -0.03671981322440965 1.65557372080302
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+CircleArena {
+  radius 0.6
+}
+E-puck {
+  hidden position_0_0 245.68243386081735
+  hidden position_0_1 293.63733715677887
+  hidden rotation_1 0 1 0 3.907746752124874
+  hidden rotation_2 0 -1 0 3.5322686470665348
+  translation -0.3312504516642501 -0.34574064004616534 -6.394174102762086e-05
+  rotation 0.0005024318051393374 0.0007233477194604034 0.9999996121651037 1.92741
+  controller "bolo"
+  supervisor TRUE
+}
+DEF caixa1 WoodenBox {
+  translation 0.4516041816691468 -3.9626870975304126e-09 0.03998760106072342
+  rotation 0.0012009240129302497 -0.9995131019530268 -0.03117878775310694 1.191457761865555e-06
+  size 0.08 0.08 0.08
+  mass 0.03
+}
+DEF caixa2 WoodenBox {
+  translation 0 0.5 0.04
+  name "wooden box(1)"
+  size 0.08 0.08 0.08
+}
+DEF caixa3 WoodenBox {
+  translation 0 -0.5 0.04
+  name "wooden box(2)"
+  size 0.08 0.08 0.08
+}
+DEF caixa4 WoodenBox {
+  translation 8.125384518858031e-19 1.5060958259532883e-17 0.039995033499229796
+  rotation 0.9563865415404234 2.6313743352837773e-15 -0.29210406221130886 1.8501075335568781e-16
+  name "wooden box(3)"
+  size 0.08 0.08 0.08
+}
+DEF caixa5 WoodenBox {
+  translation 0.25 0 0.04
+  name "wooden box(4)"
+  size 0.08 0.08 0.08
+}
+DEF caixa6 WoodenBox {
+  translation -0.25 0 0.04
+  name "wooden box(5)"
+  size 0.08 0.08 0.08
+}
+DEF caixa7 WoodenBox {
+  translation -0.25 -0.25 0.04
+  name "wooden box(6)"
+  size 0.08 0.08 0.08
+}
+DEF caixa8 WoodenBox {
+  translation 0.25 0.25 0.04
+  name "wooden box(7)"
+  size 0.08 0.08 0.08
+}
